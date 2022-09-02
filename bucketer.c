@@ -24,6 +24,27 @@ void testBucketingByNumberOfCycles() {
 }
 
 int main() {
+  int charged;
   testBucketingByNumberOfCycles();
+  printf("\n 1. low");
+  printf("\n 2. medium");
+  printf("\n 3. high"); 
+  printf("enter the charge cycles:");
+  scanf("%d",&charged);
+  switch(n)
+  {
+    case 1:if(charged>=0 && charged<400){
+      lowCount+=1;
+    }
+      break;
+    case 2:else if(charged>=400 && charged<920){
+      mediumCount+=1;
+    }
+      break;
+    case 3: else{
+      highCount+=1;
+    }
+      break;
+    default: printf("invalid input);
   return 0;
 }
