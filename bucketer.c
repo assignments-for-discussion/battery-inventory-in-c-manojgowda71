@@ -46,5 +46,4 @@ int main() {
     }
       break;
     default: printf("invalid input);
-  return 0;
 }
