@@ -31,7 +31,7 @@ int main() {
   printf("\n 3. high"); 
   printf("enter the charge cycles:");
   scanf("%d",&charged);
-  switch(n)
+  switch(charged)
   {
     case 1:if(charged>=0 && charged<400){
       lowCount+=1;
